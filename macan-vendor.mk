@@ -861,6 +861,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macan/proprietary/odm/etc/display/qdcm_calib_data_AA607_P_7_A0020_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA607_P_7_A0020_dsc_cmd_mode_panel.json \
     vendor/oneplus/macan/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/macan/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/macan/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_2_3.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_2_3.json \
     vendor/oneplus/macan/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/macan/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
     vendor/oneplus/macan/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
