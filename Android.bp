@@ -16444,6 +16444,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "liboplus_audiox",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/liboplus_audiox.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libdl",
+                "libm",
+                "liblog",
+                "libMNN",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libopluscameraframeboost",
     owner: "oneplus",
     strip: {
@@ -17139,6 +17164,40 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOplusSpatializerAidl",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/soundfx/libOplusSpatializerAidl.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libutils",
+                "libhidlbase",
+                "libbinder_ndk",
+                "libc",
+                "libc++_shared",
+                "libdl",
+                "liblog",
+                "libm",
+                "libfmq",
+                "libaudioutils",
+                "libcutils",
+                "liboplus_audiox",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
     prefer: true,
     device_specific: true,
 }
