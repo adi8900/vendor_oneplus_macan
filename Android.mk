@@ -12,6 +12,7 @@ $(call add-radio-file-sha1-checked,radio/aop_config.img,b6f9d8e5cdada4078d90bc59
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,62b8d3ed534075e29aab06be48f349c95f6b0a60)
 $(call add-radio-file-sha1-checked,radio/cpucp.img,832cec7e72257b5ecf994e5b77cbc3e677b3ca35)
 $(call add-radio-file-sha1-checked,radio/cpucp_dtb.img,d55969d3673e2b7ad86b5784400e9f3202f0f8a5)
+$(call add-radio-file-sha1-checked,radio/dcp.img,e20d9dcb06544304d8eb3d8566534251beba6a22)
 $(call add-radio-file-sha1-checked,radio/devcfg.img,874cbe31964b4764bf2bacb33f6705c55932cd08)
 $(call add-radio-file-sha1-checked,radio/dsp.img,c87bc39f0af50000d17beae2b10f2b62d50b2b88)
 $(call add-radio-file-sha1-checked,radio/engineering_cdt.img,e752ce8d515645a23474fe0386624928551ec1af)

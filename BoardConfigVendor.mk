@@ -9,6 +9,7 @@ AB_OTA_PARTITIONS += \
     bluetooth \
     cpucp \
     cpucp_dtb \
+    dcp \
     devcfg \
     dsp \
     engineering_cdt \
