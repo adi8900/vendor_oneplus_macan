@@ -1154,6 +1154,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macan/proprietary/vendor/firmware/CAMERA_ICP_1.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.mbn \
     vendor/oneplus/macan/proprietary/vendor/firmware/CAMERA_ICP_1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.mdt \
     vendor/oneplus/macan/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/oneplus/macan/proprietary/vendor/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_170.bin \
+    vendor/oneplus/macan/proprietary/vendor/firmware/aw8697_haptic_170_soft.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_170_soft.bin \
     vendor/oneplus/macan/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
     vendor/oneplus/macan/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
     vendor/oneplus/macan/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
